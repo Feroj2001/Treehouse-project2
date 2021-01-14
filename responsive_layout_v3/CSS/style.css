@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+nav .navlinks {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav .navlinks li {
+    padding: 1rem;
+    margin: .2rem;
+    text-transform: uppercase;
+    background-color: #C0C0C0
+}
+
+
+/* main */
+
+/* about me */
+
+section article .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 15rem;
+    background-color: #C0C0C0;
+    margin: 1.5rem auto;
+}
+
+.background img {
+    width: 55%;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+header .me article p {
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+/* portfolio */
+
+main {
+    overflow: hidden;
+}
+
+.portfolios header h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.portfolios img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolios h3,
+p {
+    text-align: center;
+}
+
+.portfolios h3 {
+    padding: 2rem;
+}
+
+.portfolios p {
+    padding-bottom: 2rem;
+}
+
+/* hr */
+hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ---hr--- */
+
+/* footer */
+.bottomnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomnav ul {
+    list-style: none;
+}
+
+.bottomnav ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.contact h3,
+p {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.mobilenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+}
+
+/* hiding bottom nav */
+.gone {
+    display: none;
+}
+
+/* ---- */
+
+
+/* clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* ---clearfix--- */
