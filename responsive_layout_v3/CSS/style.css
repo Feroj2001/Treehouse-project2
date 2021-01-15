@@ -223,8 +223,9 @@ p {
         display: none;
     }
 
-    main {
+    .portfolios {
         width: 100%;
+        padding: 3rem;
     }
 
     .portfolios article {
@@ -232,6 +233,13 @@ p {
         float: left;
     }
 
+    .talent {
+        margin-top: 3rem;
+    }
+
+    hr {
+        width: 100%;
+    }
 
     /* ---main--- */
 
@@ -267,6 +275,12 @@ p {
     .portfolios article {
         width: 16.67;
         float: left;
+    }
+
+    .portfolio-1,
+    .portfolio-2,
+    .portfolio-3 {
+        width: 16.67;
     }
 }
 
