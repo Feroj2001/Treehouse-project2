@@ -7,6 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,12 +19,13 @@
         <h1>Feroj Khapangi</h1>
         <nav>
             <ul class="navlinks">
-                <li>home</li>
-                <li>portfolio</li>
-                <li>contact</li>
+                <li><a href="#">home</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#skills">skills</a></li>
             </ul>
         </nav>
-        <section class="me clearfix">
+        <section class="me">
             <article>
                 <div class="background">
                     <img src="images/profile-pic (2).jpg" alt="">
@@ -34,11 +39,11 @@
         </section>
     </header>
     <!-- portfolio -->
-    <main class="clearfix">
+    <main class="clearfix" id="portfolio">
         <section class="portfolios">
                 <h2>portfolio</h2>
             <article class="portfolio-1">
-                <img src="images/portfolio-1.png" alt="Marketing page image">
+                <img src="images/portfolio-1.png" alt="Marketing page">
                 <h3>Marketing Page</h3>
                 <p>This project shows the front page of a
                     marketing website meant for a specific
@@ -47,7 +52,7 @@
             </article>
 
             <article class="portfolio-2">
-                <img src="images/portfolio-2.png" alt="search page image">
+                <img src="images/portfolio-2.png" alt="search page">
                 <h3>Search Page</h3>
                 <p>
                     This project searches through a specific database
@@ -92,11 +97,28 @@
                 </p>
             </article>
         </section>
+
         <hr>
+
+        <section class="talent" id="skills">
+            <article>
+                <h3>Skills</h3>
+                <p>My skills include:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>BASKETBALL</li>
+                </ul>
+            </article>
+        </section>
+
+        <hr>
+    </main>
 
         <!-- footer -->
 
-        <footer>
+        <footer class="clearfix" id="contact">
             <section class="bottomnav gone">
                 <h3>Feroj Khapangi</h3>
             <nav>
