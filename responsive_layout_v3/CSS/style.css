@@ -39,6 +39,7 @@ nav .navlinks li {
 }
 
 
+
 /* main */
 
 /* about me */
@@ -79,6 +80,7 @@ main {
     text-align: center;
     padding: 2rem 0;
     text-transform: uppercase;
+    color: red;
 }
 
 .portfolios img {
@@ -106,7 +108,6 @@ hr {
     margin: 0 auto;
 }
 
-/* ---hr--- */
 
 /* SKills */
 
@@ -121,7 +122,6 @@ hr {
     padding: .5rem;
 }
 
-/* ---skills--- */
 
 /* footer */
 
@@ -173,7 +173,7 @@ p {
     display: none;
 }
 
-/* ---- */
+
 
 
 /* clearfix */
@@ -205,6 +205,13 @@ p {
         background-color: transparent;
     }
 
+    nav .navlinks li a:hover {
+        border: 2px solid blue;
+        padding: 1rem;
+        background-color: rgb(85, 85, 131);
+        color: white;
+    }
+
     .me .background {
         float: right;
         margin: 2rem;
@@ -221,11 +228,6 @@ p {
     /* main */
     #hide {
         display: none;
-    }
-
-    .portfolios {
-        width: 100%;
-        padding: 3rem;
     }
 
     .portfolios article {
@@ -266,22 +268,18 @@ p {
 }
 
 
-@media screen and only (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
 
     main {
         width: 100%;
     }
 
     .portfolios article {
-        width: 16.67;
-        float: left;
+        width: 30%;
+        margin: 0 auto;
+        margin-left: 2rem;
     }
 
-    .portfolio-1,
-    .portfolio-2,
-    .portfolio-3 {
-        width: 16.67;
-    }
 }
 
 /* ---Media queries--- */
